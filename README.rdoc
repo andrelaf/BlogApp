@@ -1,0 +1,15 @@
+Testing - 
+
+Unit Tests
+- models, view, routes etc
+- each individual component is tested one item at a item 
+- tipicaly results in very good coverage
+
+Function Testes
+- controllers
+- testing multiplie components and how they collaborate with each other
+- multiple models in a process
+
+Integration Tests
+- Integration test is when a business process is followed to completion to meet a business objective 
+- Typicaly involves emulating a user, for example loggin in and clicking on a purchase button or links etc  
