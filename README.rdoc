@@ -13,3 +13,24 @@ Function Testes
 Integration Tests
 - Integration test is when a business process is followed to completion to meet a business objective 
 - Typicaly involves emulating a user, for example loggin in and clicking on a purchase button or links etc  
+
+----------------------------------------
+
+Blog App
+
+- Article
+  - ID
+  - Title 
+  - Body
+
+- Users
+  - ID
+  - Email
+  - Password
+
+- Comments
+  - ID
+  - Body
+  - User_ID
+  - Article_ID
+
