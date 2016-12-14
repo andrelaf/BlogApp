@@ -1,3 +1,4 @@
+ENV['RUBY_DEP_GEM_SILENCE_WARNINGS'] = '1'
 source 'https://rubygems.org'
 
 
@@ -40,6 +41,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.4', '>= 3.4.2'
+  #Guard::RSpec allows to automatically & intelligently launch specs when files are modified.
+  gem 'guard-rspec', require: false 
+  gem 'spring-commands-rspec', '~> 1.0', '>= 1.0.4'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
 end
