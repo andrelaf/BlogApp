@@ -14,7 +14,7 @@ RSpec.feature "Listing Articles" do
       expect(page).to have_content(@article1.body)
       expect(page).to have_content(@article2.title)
       expect(page).to have_link(@article1.title)
-      xpect(page).to have_link(@article2.title)
+      expect(page).to have_link(@article2.title)
   end
     
 end
