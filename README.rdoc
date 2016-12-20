@@ -34,3 +34,14 @@ Blog App
   - User_ID
   - Article_ID
 
+Welcome to Ruby on Rails Web Apps with Rspec 3
+
+Section 4:
+
+- User Sign-up
+- Log in / Log out
+- Restricts access to certain features
+
+
+
+
