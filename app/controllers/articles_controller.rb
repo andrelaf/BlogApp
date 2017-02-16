@@ -11,8 +11,8 @@ class ArticlesController < ApplicationController
   end
    
   def show
+    @comment = @article.comments.build
   end
-  
   
   def create
     @article = current_user.articles.build(article_params)
